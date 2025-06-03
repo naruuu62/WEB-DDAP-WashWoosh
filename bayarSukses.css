@@ -6,7 +6,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 hr{
@@ -149,21 +149,21 @@ hr{
 
 .pesan-jadwal{
     margin-top: 40px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 40px;
 }
 
 .pesan-jadwal1{
     margin-top: 5px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 50px;
 }
 
 .pesan-jadwal2{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 20px;
@@ -172,7 +172,7 @@ hr{
 }
 
 .pesan-jadwal3{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 25px;
     margin-top: 75px;
@@ -180,7 +180,7 @@ hr{
 }
 
 .pilih-waktu{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 25px;
     margin-top: 75px;
@@ -193,7 +193,7 @@ hr{
 }
 
 .pilih-alamat{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 25px;
     margin-top: 50px;
@@ -206,7 +206,7 @@ hr{
 }
 
 .keterangan-alamat{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 15px;
     margin-top: 45px;
@@ -241,7 +241,7 @@ hr{
     width: 433px;
     height: 48px;
     background-color: #9DCDF0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #fff;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -299,12 +299,12 @@ hr{
 #detail-transaksi{
   text-align: start;
   margin: 75px 60px 0 60px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 #detail-transaksi p{
 
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 20px;
   margin: 30px 0px 10px 20px;
@@ -318,13 +318,13 @@ hr{
 }
 
 .bayar-item h5{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size:18px;
 }
 
 .bayar-item p{
-  font-family: "Poppins", cursive ;
+  font-family: "Inter", cursive ;
   font-weight: 400;
   opacity: 80%;
 }
@@ -335,7 +335,7 @@ hr{
 
 .bayar-text p{
     color: grey;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
     margin-top: 20px;
@@ -344,7 +344,7 @@ hr{
 }
 
 .bayar-text h1{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 20px;
     margin-top: 10px;
@@ -369,7 +369,7 @@ hr{
 
 .data-diri1{
     text-align: start;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
     margin-top: 20px;
@@ -552,7 +552,7 @@ hr{
 }
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
