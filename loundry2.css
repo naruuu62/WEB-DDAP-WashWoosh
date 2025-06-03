@@ -19,6 +19,42 @@ body{
     background-color: #E8F9FF;
 
 }
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 40px;
+  background-color: #B5ECFF;
+}
+
+
+.nav-links {
+  display: none;
+  flex-direction: column;
+  background-color: #B5ECFF;
+  width: 10%;
+  margin: 5px;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+
+}
+
+.nav-links li {
+  padding: 10px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-links.show {
+  display: flex;
+}
 .navbar{
     display: flex;
     width: 100%;

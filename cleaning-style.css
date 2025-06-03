@@ -323,3 +323,209 @@ hr{
     background-color: #5BB2F3;
 }
 
+.nav-links {
+  display: none;
+  flex-direction: column;
+  background-color: #B5ECFF;
+  width: 10%;
+  margin: 5px;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+
+}
+
+.nav-links li {
+  padding: 10px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-links.show {
+  display: flex;
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 321px) {
+  .navbar {
+    padding: 20px;
+  }
+
+  .logo {
+    width: 80px;
+    height: auto;
+  }
+
+  .menu {
+    width: 20px;
+    height: 20px;
+  }
+
+  .icon-layanan{
+    height: 150px;
+    width: 130px;
+  }
+
+  .welcome-text {
+    font-size: 1.5rem;
+    top: 8%;
+  }
+
+  .card {
+    height: fit-content;
+    transform: translate(-51%, -45%);
+    width: 90%;
+    padding: 10px;
+    -webkit-transform: translate(-51%, -45%);
+    -moz-transform: translate(-51%, -45%);
+    -ms-transform: translate(-51%, -45%);
+    -o-transform: translate(-51%, -45%);
+}
+
+.deskripsi-flip{
+    margin-top: 12px;
+    font-size: 0.8rem;
+}
+
+.layanan-item{
+    margin: 50px 0 10px 50px;
+}
+
+.nama-layanan2{
+    font-size: 0.8rem;
+}
+
+.icon-layanan{
+    height: 75%;
+    width: 75%;
+}
+
+.icon-layanan1{
+    margin-bottom: 20px;
+    height: 120%;
+    width: 120%;
+}
+
+  .card-description {
+    font-size: 1rem;
+  }
+
+  .card-layanan {
+    width: 140px;
+    height: 160px;
+  }
+
+  .nama-layanan {
+    font-size: 16px;
+    margin: 15px auto;
+  }
+
+  .about-us-container {
+    transform: translate(5%, 250%);
+    width: 90%;
+    margin: 40px auto;
+    font-size: 0.95rem;
+    -webkit-transform: translate(5%, 250%);
+    -moz-transform: translate(5%, 250%);
+    -ms-transform: translate(5%, 250%);
+    -o-transform: translate(5%, 250%);
+}
+
+  .about-us h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-us p {
+    font-size: 0.9rem;
+  }
+}   
+
+@media screen and (min-width: 1024px) {
+
+    .navbar{
+        padding: 0 20px 0 20px;
+    }
+  .nama-layanan {
+    font-size: 22px;
+  }
+
+  .about-us-container {
+    transform: translate(2%,500%);
+    width: 95%;
+    font-size: 1.1rem;
+    -webkit-transform: translate(2%,500%);
+    -moz-transform: translate(2%,500%);
+    -ms-transform: translate(2%,500%);
+    -o-transform: translate(2%,500%);
+}
+
+  .about-us h1 {
+    font-size: 2rem;
+  }
+
+  .about-us p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar{
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .menu-icon{
+        height: 5vh;
+    }
+
+    .logo{
+        height: 10vh;
+        width: 10vh;
+    }
+
+    .card-description{
+        font-size: 1rem;
+    }
+    .card{
+        transform: translate(-50%, -20%);
+        -webkit-transform: translate(-50%, -20%);
+        -moz-transform: translate(-50%, -20%);
+        -ms-transform: translate(-50%, -20%);
+        -o-transform: translate(-50%, -20%);
+}
+    .nama-layanan2{
+        font-size: 1rem;
+    }
+    .icon-layanan{
+        height: 75%;
+        width: 75%;
+    }
+
+    .card-layanan{
+        margin: 0 5px 0 15px;
+        width: 70vw;
+        height: fit-content;
+    }
+
+    .deskripsi-flip{
+        font-size: 1rem;
+    }
+
+    .about-us-container{
+        transform: translate(1%, 250%);
+        -webkit-transform: translate(1%, 250%);
+        -moz-transform: translate(1%, 250%);
+        -ms-transform: translate(1%, 250%);
+        -o-transform: translate(1%, 250%);
+}
+
+.nav-links li{
+    padding-left: 2px;
+    font-size: 0.8rem;
+}
+}
+

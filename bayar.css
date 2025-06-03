@@ -26,13 +26,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: #B5ECFF;
 }
 
 .logo {
   width: fit-content;
-  height: 50px;
+  height: 150px;
   display: flex;
 }
 
@@ -252,11 +253,8 @@ body {
   margin: 60px auto;
   padding: 20px;
   height: fit-content;
-  transform:translate(0%, -150%);
-  -webkit-transform:translate(0%, -150%);
-  -moz-transform:translate(0%, -150%);
-  -ms-transform:translate(0%, -150%);
-  -o-transform:translate(0%, -150%);
+  margin-top: 20px;
+  
 }
 
 .card-data-diri {
@@ -432,7 +430,8 @@ body {
 /* Responsive */
 @media screen and (max-width: 600px) and (min-width: 321px) {
   .navbar {
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .logo {
@@ -440,7 +439,8 @@ body {
     height: auto;
   }
 
-  .menu {
+
+  .menu-icon {
     width: 30px;
     height: 30px;
   }
@@ -452,8 +452,9 @@ body {
 
   .card {
     width: 90%;
-    margin-top: 40px;
-    padding: 15px;
+    min-height:100vh ;
+    margin-top: 30vh;
+    padding: 5px;
   }
 
   .card-description {
@@ -461,18 +462,76 @@ body {
   }
 
   .card-layanan {
-    width: 140px;
-    height: 160px;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    width: 90%;
+    height: fit-content;
   }
 
-  .nama-layanan {
-    font-size: 16px;
-    margin: 15px auto;
+  .card-data-diri{
+    height: 50%;
+    width: 100%;
+    margin-left: 0vw;
   }
+
+  .data-diri1{
+    font-size: 0.8rem;
+  }
+
+  .data-diri2{
+    font-size: 1rem;
+  }
+
+  .card-bayar{
+    margin-left: 0vw;
+    height: 50%;
+    width: 100%;
+  }
+
+  .card-menu-bayar{
+    margin-left: 1vw;
+    height: 50%;
+    width: 95%;
+  }
+
+  .bayar-text h4{
+    font-size: 0.9rem;
+  }
+  .bayar-text h5{
+    font-size: 0.6rem;
+  }
+
+  .bayar-text p{
+    font-size: 0.6rem;
+  }
+
+  .icon-bayar{
+    height: 5vh;
+    width: 7vw;
+  }
+
+  .arrow-icon{
+    height: 3vh;
+    width: 7vw;
+  }
+
+  .pesan-jadwal{
+    font-size: 1.5rem;
+  }
+
+  .button-konfirmasi{
+    height: 5vh;
+    width: 60vw;
+    transform: translateX(-2%);
+    -webkit-transform: translateX(-2%);
+    -moz-transform: translateX(-2%);
+    -ms-transform: translateX(-2%);
+    -o-transform: translateX(-2%);
+}
 
   .about-us-container {
     width: 90%;
-    margin: 40px auto;
+    margin: 100px 30px 20px 40px;
     font-size: 0.95rem;
   }
 
@@ -495,14 +554,45 @@ body {
     font-size: 1.2rem;
   }
 
-  .card-layanan {
-    width: 200px;
-    height: 220px;
+  .card{
+    margin-top: 50vh;
+    height: fit-content;
   }
 
-  .nama-layanan {
-    font-size: 22px;
+  .card-layanan {
+    width: 100%;
+    height: 100%;
   }
+
+  .card-data-diri{
+    margin-left: 18vw;
+    border: none;
+    box-shadow: none;
+  }
+
+  .data-diri1{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .data-diri2{
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  .pesan-jadwal3{
+    margin-left: 27vw;
+  }
+
+  .card-bayar{
+    border: none;
+    box-shadow: none;
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
 
   .about-us-container {
     width: 95%;

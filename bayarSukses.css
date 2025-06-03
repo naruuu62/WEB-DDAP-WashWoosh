@@ -33,13 +33,14 @@ hr{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding-left: 30px;
+  padding-right: 40px;
   background-color: #B5ECFF;
 }
 
 .logo {
   width: fit-content;
-  height: 50px;
+  height: 150px;
   display: flex;
 }
 
@@ -260,11 +261,6 @@ hr{
   margin: 60px auto;
   padding: 20px;
   height: fit-content;
-  transform:translate(0%, 100%);
-  -webkit-transform:translate(0%, 100%);
-  -moz-transform:translate(0%, 100%);
-  -ms-transform:translate(0%, 100%);
-  -o-transform:translate(0%, 100%);
 }
 
 .bank-pilihan {
@@ -454,7 +450,8 @@ hr{
 /* Responsive */
 @media screen and (max-width: 600px) and (min-width: 321px) {
   .navbar {
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .logo {
@@ -462,7 +459,7 @@ hr{
     height: auto;
   }
 
-  .menu {
+  .menu-icon {
     width: 30px;
     height: 30px;
   }
@@ -474,8 +471,9 @@ hr{
 
   .card {
     width: 90%;
-    margin-top: 40px;
-    padding: 15px;
+    min-height:100vh ;
+    margin-top: 30vh;
+    padding: 5px;
   }
 
   .card-description {
@@ -483,18 +481,81 @@ hr{
   }
 
   .card-layanan {
-    width: 140px;
-    height: 160px;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    width: 90%;
+    height: fit-content;
   }
 
-  .nama-layanan {
-    font-size: 16px;
-    margin: 15px auto;
+  .icon-success{
+    height: 15vh;
   }
+
+  .pesan-jadwal{
+    font-size: 1.5rem;
+  }
+
+  .column p{
+    font-size: 1rem;
+    margin-left: 1vw;
+  }
+
+  .row{
+    
+    margin-right: 1vw;
+  }
+
+  hr{
+    margin-left: 4vh;
+    margin-top: 3vh;
+  }
+
+  .bank-pilihan{
+    margin-left: 4.25vw;
+    height: fit-content;
+    width: 90%;
+  }
+
+.icon-bayar{
+  height: 5vh;
+  width: 8vw;
+}
+
+.bayar-text p{
+  font-size: 1rem;
+}
+
+.bayar-text h1{
+  font-size: 1.2rem;
+}
+
+.bayar-item p{
+  font-size: 0.8rem;
+}
+
+#detail-transaksi{
+  margin-left: 5vw;
+}
+
+#detail-transaksi p{
+  margin-bottom: 3vh;
+  font-size: 1.2rem;
+}
+
+.bayar-item h5{
+  font-size: 0.8rem;
+  gap: 3vw;
+}
+
+.bayar-item h3{
+  font-size: 1rem;
+  gap: 3vw;
+}
+
 
   .about-us-container {
     width: 90%;
-    margin: 40px auto;
+    margin: 100px 30px 20px 40px;
     font-size: 0.95rem;
   }
 
@@ -504,6 +565,11 @@ hr{
 
   .about-us p {
     font-size: 0.9rem;
+  }
+
+  .pilih-icon{
+    height: 8vh;
+    width: 8vh;
   }
 }
 
@@ -517,13 +583,35 @@ hr{
     font-size: 1.2rem;
   }
 
+  hr{
+    margin-left: 10vw;
+  }
+  
+  .column{
+    margin-left: 18%;
+  }
+
+  .card{
+    margin-top: 50vh;
+    height: 150vh;
+  }
+
+  .garis-bayar{
+    width: 100%;
+  }
+
   .card-layanan {
-    width: 200px;
-    height: 220px;
+    margin-left: -100%;
+    width: 300%;
+    height: 100%;
   }
 
   .nama-layanan {
     font-size: 22px;
+  }
+
+  .bank-pilihan{
+    margin-left: 35%;
   }
 
   .about-us-container {
