@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style1.css">
+    <script src="link.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-menu">
+        <nav class = "navbar">
+            <div class="logntainer">
+                <img src="LOGO.png" alt="Logo" class="logo">
+                            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cleaning.html">Cleaning</a></li>
+                <li><a href="catalog.html">Katalog</a></li>
+                <li><a href="akun.html">Akun</a></li>
+            </ul>
+            </div>
+            
+            <button class ="menu-button" onclick="toggleMenu('navLinks')">
+                <img src="menu.png" class="menu-icon">
+            </button>
+            
+        </nav>
+        <div class="container-background">
+        <div class = "logo2"></div>
+        <div class = "welcome-text">
+            <p>Layanan kebersihan profesional untuk rumah, kantor, dan ruang usaha anda</p>
+        </div>
+        <div class="container">
+        <div class="card">
+            <p class="card-description">Kami menyediakan layanan kebersihan profesional untuk rumah, kantor, dan ruang usaha anda.</p>
+            <div class="layanan-wrapper">
+                <div class = "layanan-item">
+            <button class = "menu-button">
+                <div class = "card-layanan"></div> 
+                </button>
+                    <p class="nama-layanan">Laundry</p>
+                </div>
+            <div class = "layanan-item">
+                <button class = "menu-button" onclick="window.location.href='cleaning.html'">
+            <div class = "card-layanan"></div>
+            </button>
+            <p class="nama-layanan">Cleaning</p>
+            </div>
+            <div class = "layanan-item">
+                <button class = "menu-button">
+            <div class = "card-layanan"></div>
+                </button>
+            <p class="nama-layanan" id="nama-layanan-edit">Katalog</p>
+            </div>
+            </div>
+
+        </div>
+        <div class="about-us-container">
+        <section class="about-us">
+            <h2>Tentang Kami</h2>
+            <p>Kami adalah penyedia layanan kebersihan profesional yang berkomitmen untuk memberikan layanan terbaik kepada pelanggan kami. Dengan pengalaman bertahun-tahun, kami memahami pentingnya kebersihan dalam menciptakan lingkungan yang sehat dan nyaman.</p>
+            <p>Tim kami terdiri dari tenaga ahli yang terlatih dan menggunakan peralatan serta produk pembersih berkualitas tinggi untuk memastikan hasil yang optimal. Kami melayani berbagai jenis ruang, mulai dari rumah tinggal hingga kantor dan ruang usaha.</p>
+            <p>Hubungi kami hari ini untuk mendapatkan layanan kebersihan terbaik!</p>
+        </section>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    
+    
+</body>
+</html>

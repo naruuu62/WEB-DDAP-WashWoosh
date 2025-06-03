@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bank.css">
+    <script src="link.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+        <nav class = "navbar">
+             <div class="logntainer">
+                <img src="LOGO.png" alt="Logo" class="logo">
+                            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cleaning.html">Cleaning</a></li>
+                <li><a href="catalog.html">Katalog</a></li>
+                <li><a href="akun.html">Akun</a></li>
+            </ul>
+            </div>
+            
+            <button class ="menu-button" onclick="toggleMenu('navLinks')">
+                <img src="menu.png" class="menu-icon">
+            </button>
+        </nav>
+        <div class="container-background">
+       <div class = "logo2"></div>
+        <div class="container">
+            <div class="card">
+                <div class="layanan-wrapper">
+                    <div class="layanan-item">
+                        
+                        <div class ="flip-card" id="card1">
+                            <div class="card-layanan card-layanan-front" onclick="flipCard('card1')">
+                                <p class ="pesan-jadwal">Menu Pembayaran</p>
+                                
+                                <div class="card-bayar">
+                                    <div class="bayar-text">
+                                         <h1>Pilih Menu Pembayaran</h1>
+                                    </div>
+                                   
+                                    <div class="card-menu-bayar">
+                                        <img src="bri.png" class="icon-bayar" alt="icon-bayar">
+                                        <div class="bayar-text">
+                                        <h4>BRI Virtual Account</h4>
+                                        </div>
+                                    </div>
+                                    <div class="card-menu-bayar">
+                                        <img src="bni.png" class="icon-bayar" alt="icon-bayar">
+                                        <div class="bayar-text">
+                                            <h4>BNI Virtual Account</h4>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="card-menu-bayar">
+                                        <img src="btpn.png" class="icon-bayar" alt="icon-bayar">
+                                        <div class="bayar-text">
+                                            <h4>BTPN Accomodate</h4>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="card-menu-bayar">
+                                        <img src="jago.png" class="icon-bayar" alt="icon-bayar">
+                                        <div class="bayar-text">
+                                            <h4>Jago Virtual</h4>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="card-menu-bayar">
+                                        <img src="bca.png" class="icon-bayar" alt="icon-bayar">
+                                        <div class="bayar-text">
+                                            <h4>BCA Virtual</h4>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="card-menu-bayar">
+                                        <img src="mandiri.png" class="icon-bayar" alt="icon-bayar">
+                                        <div class="bayar-text">
+                                            <h4>Mandiri Credit Account</h4>
+                                            
+                                        </div>
+                                    </div>
+                                     <button class="button-konfirmasi" onclick="window.location.href='confirmBank.html'"> <p>Lanjutkan Pemesanan</p> </button>
+                                </div>
+
+                               
+
+                            </div>
+                        </div>                       
+                    </div>
+
+                </div>
+            </div>
+            <div class="about-us-container">
+                <section class="about-us">
+                    <h2>Tentang Kami</h2>
+                    <p>Kami adalah penyedia layanan kebersihan profesional yang berkomitmen untuk memberikan layanan terbaik kepada pelanggan kami. Dengan pengalaman bertahun-tahun, kami memahami pentingnya kebersihan dalam menciptakan lingkungan yang sehat dan nyaman.</p>
+                    <p>Tim kami terdiri dari tenaga ahli yang terlatih dan menggunakan peralatan serta produk pembersih berkualitas tinggi untuk memastikan hasil yang optimal. Kami melayani berbagai jenis ruang, mulai dari rumah tinggal hingga kantor dan ruang usaha.</p>
+                    <p>Hubungi kami hari ini untuk mendapatkan layanan kebersihan terbaik!</p>
+                </section>
+            </div>
+    </div>
+</body>
+</html>    

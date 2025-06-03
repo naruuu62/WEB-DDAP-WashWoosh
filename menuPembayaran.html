@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bayar.css">
+    <script src="link.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+        <nav class = "navbar">
+             <div class="logntainer">
+                <img src="LOGO.png" alt="Logo" class="logo">
+                            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cleaning.html">Cleaning</a></li>
+                <li><a href="catalog.html">Katalog</a></li>
+                <li><a href="akun.html">Akun</a></li>
+            </ul>
+            </div>
+            
+            <button class ="menu-button" onclick="toggleMenu('navLinks')">
+                <img src="menu.png" class="menu-icon">
+            </button>
+        </nav>
+        <div class="container-background">
+       <div class = "logo2"></div>
+        <div class="container">
+            <div class="card">
+                <div class="layanan-wrapper">
+                    <div class="layanan-item">
+                        
+                        <div class ="flip-card" id="card1">
+                            <div class="card-layanan card-layanan-front" onclick="flipCard('card1')">
+                                <p class ="pesan-jadwal">Menu Pembayaran</p>
+                                
+                                <p class ="pesan-jadwal2">Yuk Lakukan Pembayaran Dulu Agar Layananmu Dapat Kami Proses</p>
+                                <p class ="pesan-jadwal3">Rincian Tagihan</p>
+                                <div class ="card-data-diri">
+                                    <p class="data-diri1">Pilihan Layanan : <span>Bedroom</span></p>
+                                    <hr>
+                                    <p class="data-diri1">Harga Layanan : <span id="tanggal-konfirmasi">Rp80.000,00</span></p>
+                                    <hr>
+                                    <p class="data-diri1">Biaya Perjalanan : <span id="waktu-konfirmasi">Rp8.000,00</span></p>
+                                    <hr>
+                                    <p class="data-diri2"> Subtotal : <span id="alamat-konfirmasi">Rp88.000,00</span></p>
+                                </div>
+                                
+                                <div class="card-bayar">
+                                    <div class="card-menu-bayar">
+                                        <img src="pngwing.com (2).png" class="icon-bayar" alt="icon-bayar">
+                                        <div class="bayar-text">
+                                        <h4>Kode Kupon</h4>
+                                        <h5>Masukkan Kode Kupon</h5>
+                                        </div>
+                                        <img src="arrow_forward.png" class="arrow-icon" alt="arrow-icon" >
+                                    </div>
+                                    <div class="card-menu-bayar" onclick="window.location.href='pilihBank.html'">
+                                        <img src="dompet.png" class="icon-bayar" alt="icon-bayar">
+                                        <div class="bayar-text" >
+                                            <h4>Bayar Melalui</h4>
+                                            <p>Pilih Metode Pembayaran</p>
+                                        </div>
+                                        <img src="arrow_forward.png" class="arrow-icon" alt="arrow-icon" >
+                                    </div>
+                                </div>
+
+                                <button class="button-konfirmasi" onclick="window.location.href='index.html'"> <p>Lanjutkan Pemesanan</p> </button>
+                                <button class="button-konfirmasi" onclick="window.location.href='pesanJadwal.html'"> <p>kembali</p> </button>
+
+                            </div>
+                        </div>                       
+                    </div>
+
+                </div>
+            </div>
+            <div class="about-us-container">
+                <section class="about-us">
+                    <h2>Tentang Kami</h2>
+                    <p>Kami adalah penyedia layanan kebersihan profesional yang berkomitmen untuk memberikan layanan terbaik kepada pelanggan kami. Dengan pengalaman bertahun-tahun, kami memahami pentingnya kebersihan dalam menciptakan lingkungan yang sehat dan nyaman.</p>
+                    <p>Tim kami terdiri dari tenaga ahli yang terlatih dan menggunakan peralatan serta produk pembersih berkualitas tinggi untuk memastikan hasil yang optimal. Kami melayani berbagai jenis ruang, mulai dari rumah tinggal hingga kantor dan ruang usaha.</p>
+                    <p>Hubungi kami hari ini untuk mendapatkan layanan kebersihan terbaik!</p>
+                </section>
+            </div>
+    </div>
+</body>
+</html>    
