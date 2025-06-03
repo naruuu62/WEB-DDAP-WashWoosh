@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #d4f3ff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #b3e9ff;
+}
+
+.logo {
+  background: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 10px 20px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.katalog-container {
+  background: #ffece5;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.katalog-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.katalog-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.profile-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.ubah-foto {
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.profile-section {
+  margin-top: 20px;
+}
+
+.profile-box {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.profile-box h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+/* Label di sebelah kiri */
+.profile-row .label {
+  font-weight: normal;
+  flex-basis: 40%;
+  color: #000;
+}
+
+.profile-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-row div {
+  font-size: 16px;
+  line-height: 1.5;
+}
+  
+.profile-row div:last-child {
+  flex-basis: 60%;
+  text-align: left;
+}
+
+.bio-placeholder {
+  color: #d5bdbd;
+  font-weight: 500;
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 5px;
+}
+.profile-item {
+  margin-bottom: 10px;
+}
+.profile-item .label {
+  font-weight: bold;
+  display: inline;
+}
+
+.back-btn {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.back-btn:hover {
+  transform: translate(-2px, -2px);
+  transition: transform 0.2s ease;
+}
+.back-btn:active {
+  transform: translate(3px, 3px);
+}
+
+
+.footer {
+  background: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 2px solid #ccc;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+}
+
