@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="register.css" />
+    <script src="link.js"></script>
     <title>Slide2</title>
 </head>
 <body>
@@ -17,11 +18,14 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="cleaning.html">Cleaning</a></li>
                 <li><a href="catalog.html">Katalog</a></li>
-                <li><a href="akun.html">Akun</a></li>
+                <li><a href="slide2.html">Akun</a></li>
             </ul>
       </div>
+      <button class="menu-button">
+        <img src="Menu.png" class="menu-icon" alt="Menu Icon" onclick="toggleMenu('navLinks')" />
+      </button>
+      </nav>
     <div class="background-wrapper">
-  <img src="background.png.jpg" class="background-image" alt="Background" />
 </div>
 <div class="login-wrapper">
 <div class="login-frame">
@@ -41,7 +45,7 @@
       <input type="password" id="password" name="password" required />
         <label for="confirm-password">Konfirmasi Kata Sandi</label>
         <input type="password" id="confirm-password" name="confirm-password" required />
-      <button type="submit" class="login-button">MASUK</button>
+      <button type="submit" class="login-button" onclick="window.location.href='slide2.html'">MASUK</button>
     </form>
   </div>
 </div>
