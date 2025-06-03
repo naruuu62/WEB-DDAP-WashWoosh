@@ -593,7 +593,7 @@ hr{
 
   .card{
     margin-top: 50vh;
-    height: 150vh;
+    height: fit-content;
   }
 
   .garis-bayar{
@@ -601,17 +601,28 @@ hr{
   }
 
   .card-layanan {
-    margin-left: -100%;
-    width: 300%;
+    border-radius: 30px;
+    margin-top: 5%  ;
+    margin-left:-50%;
+    width: 200%;
     height: 100%;
-  }
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
 
   .nama-layanan {
     font-size: 22px;
   }
 
   .bank-pilihan{
+    margin-top: 5%;
     margin-left: 35%;
+  }
+
+  #bayar-icon-menu{
+    margin-top: -15vh;
   }
 
   .about-us-container {
