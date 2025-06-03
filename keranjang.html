@@ -6,12 +6,24 @@
   <title>Keranjang</title>
   <link rel="stylesheet" href="stylekatalog.css">
   <link rel="stylesheet" href="keranjang.css">
+<script src="link.js"></script>
 </head>
 <body>
-  <header class="header">
-    <div class="logo">LOGO</div>
-    <div class="menu-icon">&#9776;</div>
-  </header>
+  
+    <nav class="navbar">
+      <div>
+        <img src="Tak berjudul757_20250603230224.png" class="logo" alt="Logo" />
+      <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cleaning.html">Cleaning</a></li>
+                <li><a href="catalog.html">Katalog</a></li>
+                <li><a href="profile.html">Akun</a></li>
+            </ul>
+      </div>
+      <button class="menu-button">
+        <img src="Menu.png" class="menu-icon" alt="Menu Icon" onclick="toggleMenu('navLinks')" />
+      </button>
+    </nav>
 
   <main class="cart-container">
     <button class="back-button" onclick="history.back()">←</button>
@@ -32,7 +44,7 @@
       </div>
     </div>
 
-    <button class="order-button">ORDER</button>
+    <button class="order-button" onclick="window.location.href='pesanJadwal.html'">ORDER</button>
   </main>
 
     <footer class="footer">

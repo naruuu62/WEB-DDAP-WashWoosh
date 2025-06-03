@@ -21,6 +21,18 @@ document.addEventListener('DOMContentLoaded', function(){
     });
 });
 
+document.addEventListener('DOMContentLoaded', function(){
+    const paymentOptions = document.querySelectorAll('.select-button');
+    paymentOptions.forEach(option => {
+        option.addEventListener('click', function() {
+            const selectedOption = document.querySelector('.select-button.selected');
+            if (selectedOption) {
+                selectedOption.classList.remove('selected');
+            }
+            this.classList.add('selected');
+        });
+    });
+});
 
 
 

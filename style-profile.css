@@ -20,16 +20,52 @@ body {
   background-color: #b3e9ff;
 }
 
-.logo {
-  background: white;
-  border: 2px solid black;
-  border-radius: 50%;
-  padding: 10px 20px;
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 40px;
+  background-color: #B5ECFF;
 }
 
-.menu-icon {
-  font-size: 24px;
+.logo {
+  width: fit-content;
+  height: 150px;
+  display: flex;
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
   cursor: pointer;
+}
+
+.nav-links {
+  display: none;
+  flex-direction: column;
+  background-color: #B5ECFF;
+  width: 10%;
+  margin: 5px;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+
+}
+
+.nav-links li {
+  padding: 10px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-links.show {
+  display: flex;
 }
 
 .katalog-container {

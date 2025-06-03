@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Katalog Produk</title>
+  <link rel="stylesheet" href="stylekatalog.css" />
+<script src="link.js"></script>
+</head>
+<body>
+  
+    <nav class="navbar">
+      <div>
+        <img src="Tak berjudul757_20250603230224.png" class="logo" alt="Logo" />
+      <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cleaning.html">Cleaning</a></li>
+                <li><a href="catalog.html">Katalog</a></li>
+                <li><a href="profile.html">Akun</a></li>
+            </ul>
+      </div>
+      <button class="menu-button">
+        <img src="Menu.png" class="menu-icon" alt="Menu Icon" onclick="toggleMenu('navLinks')" />
+      </button>
+    </nav>
+
+  <main class="katalog-container">
+    <div class="katalog-header">
+      <button class="back-btn" onclick="window.location.href='index.html'">&#8592;</button>
+      <h1>KATALOG</h1>
+    </div>
+
+  <div class="search-wrapper">
+    <input type="text" placeholder="Cari produk...">
+    <img src="search-icon.png" alt="Search Icon" class="search-icon">
+  </div>
+
+    <div class="product-grid">
+  <a class="product-card" onclick="window.location.href='detail.html?'">
+    <img src="detergen-cair.jpg" alt="Detergen Cair">
+    <h2>Detergen Cair</h2>
+    <p class="price">Rp30.000</p>
+    <p class="stock">Stok : 78</p>
+  </a>
+
+  <div class="product-card" onclick="window.location.href='detailbarang.html?'">
+    <img src="detergen-bubuk.jpg" alt="Detergen Bubuk">
+    <h2>Detergen Bubuk</h2>
+    <p class="price">Rp24.000</p>
+    <p class="stock">Stok : 78</p>
+  </div>
+
+  <div class="product-card" onclick="window.location.href='detailbarang.html?'">
+    <img src="sikat.webp" alt="Sikat">
+    <h2>Sikat</h2>
+    <p class="price">Rp8.000</p>
+    <p class="stock">Stok : 78</p>
+  </div>
+
+  <div class="product-card" onclick="window.location.href='detailbarang.html?'">
+    <img src="toiletcleaner.webp" alt="Pembersih WC">
+    <h2>Pembersih Toilet</h2>
+    <p class="price">Rp45.000</p>
+    <p class="stock">Stok : 78</p>
+  </div>
+
+  <div class="product-card" onclick="window.location.href='detailbarang.html?'">
+    <img src="kamper.webp" alt="Kapur Barus">
+    <h2>Kapur Barus</h2>
+    <p class="price">Rp20.000</p>
+    <p class="stock">Stok : 78</p>
+  </div>
+
+  <div class="product-card" onclick="window.location.href='detailbarang.html?'">
+    <img src="pengharum-ruangan.webp" alt="Pengharum Ruangan">
+    <h2>Pengharum Ruangan</h2>
+    <p class="price">Rp18.000</p>
+    <p class="stock">Stok : 78</p>
+  </div>
+
+  <div class="product-card" onclick="window.location.href='detailbarang.html?'">
+    <img src="sapu.jpeg" alt="Sapu">
+    <h2>Sapu</h2>
+    <p class="price">Rp35.000</p>
+    <p class="stock">Stok : 78</p>
+  </div>
+
+  <div class="product-card" onclick="window.location.href='detailbarang.html?'">
+    <img src="lemtikus.jpeg" alt="Lem Tikus">
+    <h2>Lem Tikus</h2>
+    <p class="price">Rp28.000</p>
+    <p class="stock">Stok : 78</p>
+  </div>
+  <!-- Tambah item lain di sini -->
+</div>
+
+    <div class="pagination">
+      <button style="color: #fff; background-color: #9DCDF0;">&larr; Previous</button>
+      <button style="color: #fff; background-color: #9DCDF0;">Next &rarr;</button>
+      
+    </div>
+  </main>
+
+  <footer class="footer">
+    <h3>About us</h3>
+    <p>
+      consectetur adipiscing elit. Praesent finibus in lacus sed fringilla.
+      Praesent consectetur sodales malesuada. Fusce tristique molestie nisl,
+      nec congue tortor mollis sed. ...
+    </p>
+  </footer>
+</body>
+</html>
