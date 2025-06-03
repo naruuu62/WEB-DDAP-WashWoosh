@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cleaning-style.css">
+    <script src="link.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+        <nav class = "navbar">
+            <img src="coba.jpg" class="logo" alt="Logo">
+            <button class="menu-button">
+                <img src="menu.png" class="menu-icon" alt="Menu Icon">
+            </button>
+        </nav>
+        <div class="container-background">
+        <img src = "background.png" class = "logo2">
+        <div class="container">
+            <div class="card">
+                <p class="card-description">Kamu Mau Ngebersihin Apa?</p>
+                <hr class="garis-horizontal"></hr>
+                <div class="layanan-wrapper">
+                    <div class="layanan-item">
+                        <p class="nama-layanan">Closet</p>
+                        
+                        <div class ="flip-card" id="card1">
+                            <div class="card-layanan card-layanan-front" onclick="flipCard('card1')">
+                                <p class ="nama-layanan2">Closet</p>
+                                <img src="bathup.png" class ="icon-layanan">
+                                <button class="button-layanan" onclick="window.location.href='pesanJadwal.html'"> <p>Select Plan</p> </button> 
+                            </div>
+                            <div class="card-layanan card-layanan-back">
+                                <p class="deskripsi-flip" onclick="flipCard('card1')">layanan cleaning yang siap membersihkan kamar mandi anda</p>
+                            </div>
+                        </div>
+
+                            <!--BEDROOM-->
+
+                        <p class="nama-layanan">Bedroom</p>
+                    </div>
+                    <div class="layanan-item">
+                        <div class="flip-card" id="card2">
+                            <div class="card-layanan card-layanan-front" onclick="flipCard('card2')">
+                                <p class ="nama-layanan2">Bedroom</p>
+                                <img src="bedroom.png" class ="icon-layanan">
+                            <button class="button-layanan" onclick="window.location.href='pesanJadwal.html'"> <p>Select Plan</p> </button>
+                            </div>
+                            <div class="card-layanan card-layanan-back" onclick="flipCard('card2')">
+                                <p class="deskripsi-flip">Melayani Pembersihan Kamar Tidur Anda Secara Menyeluruh</p>
+                            </div>
+                        </div>
+
+                        <!--HOUSE-->
+
+                        <p class="nama-layanan">House</p>
+                    </div>
+
+                    <div class="layanan-item">
+                        <div class="flip-card" id="card3">
+                            <div class="card-layanan card-layanan-front" onclick="flipCard('card3')">
+                                <p class ="nama-layanan2">House</p>
+                                <img src="house.png" class ="icon-layanan1">
+                            <button class="button-layanan" onclick="window.location.href='pesanJadwal.html'"> <p>Select Plan</p> </button>
+                            </div>
+                            <div class="card-layanan card-layanan-back"  onclick="flipCard('card3')" >
+                                <p class="deskripsi-flip" id="kolom3">Membuat rumah anda nyaman digunakan bersama keluarga</p>
+                                 
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="about-us-container">
+                <section class="about-us">
+                    <h2>Tentang Kami</h2>
+                    <p>Kami adalah penyedia layanan kebersihan profesional yang berkomitmen untuk memberikan layanan terbaik kepada pelanggan kami. Dengan pengalaman bertahun-tahun, kami memahami pentingnya kebersihan dalam menciptakan lingkungan yang sehat dan nyaman.</p>
+                    <p>Tim kami terdiri dari tenaga ahli yang terlatih dan menggunakan peralatan serta produk pembersih berkualitas tinggi untuk memastikan hasil yang optimal. Kami melayani berbagai jenis ruang, mulai dari rumah tinggal hingga kantor dan ruang usaha.</p>
+                    <p>Hubungi kami hari ini untuk mendapatkan layanan kebersihan terbaik!</p>
+                </section>
+            </div>
+    </div>
+</body>
+</html>

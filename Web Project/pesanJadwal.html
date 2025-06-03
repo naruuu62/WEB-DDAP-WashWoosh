@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pesanJadwal.css">
+    <script src="link.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+        <nav class = "navbar">
+             <div class="logntainer">
+                <img src="LOGO.png" alt="Logo" class="logo">
+                            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cleaning.html">Cleaning</a></li>
+                <li><a href="catalog.html">Katalog</a></li>
+                <li><a href="akun.html">Akun</a></li>
+            </ul>
+            </div>
+            
+            <button class ="menu-button" onclick="toggleMenu('navLinks')">
+                <img src="menu.png" class="menu-icon">
+            </button>
+        </nav>
+        <div class="container-background">
+       <div class = "logo2"></div>
+        <div class="container">
+            <div class="card">
+                <div class="layanan-wrapper">
+                    <div class="layanan-item">
+                        
+                        <div class ="flip-card" id="card1">
+                            <div class="card-layanan card-layanan-front" onclick="flipCard('card1')">
+                                <p class ="pesan-jadwal">Pesan Jadwal</p>
+                                <p class ="pesan-jadwal1">Layanan Kamu</p>
+                                <p class ="pesan-jadwal2">Kapan kamu akan menggunakan layanan kami</p>
+                                <p class ="pesan-jadwal3">Kamu Pengen Hari Apa?</p>
+                                <form class="form-tanggal">
+                                    <input type="date" id="tanggal" name="tanggal" required>
+                                </form>
+                                <p class ="pilih-waktu">Pilih Waktu</p>
+                                <form>
+                                    <select id="waktu" name="waktu" required>
+                                        <option value="">Pilih Waktu</option>
+                                        <option value="08:00">08:00 - 10:00 </option>
+                                        <option value="10:00">10:00 - 12:00 </option>
+                                        <option value="12:00">12:00 - 14:00 </option>
+                                        <option value="14:00">14:00 - 16:00 </option>
+                                        <option value="16:00">16:00 - 18:00 </option>
+                                    </select>  
+                                </form>
+                                <p class="pilih-alamat">Alamatmu Dimana?</p>
+                                <form>
+                                    <p class="keterangan-alamat">Kecamatan</p>
+                                    <input type="text" class="alamat" name="alamat" required><br>
+                                    <p class="keterangan-alamat">Nama Jalan</p>
+                                    <input type="text" class="alamat" name="alamat" required><br>
+                                    <p class="keterangan-alamat">Nomor Rumah / RT RW</p>
+                                    <input type="text" class="alamat" name="alamat" required>
+                                    <p class="keterangan-alamat">Nomor Rumah / RT RW</p>
+                                    <input type="tel" class="alamat" name="alamat" required>
+                                    <p class="keterangan-alamat">Catatan Tambahan</p>
+                                    <textarea class="alamat" name="alamat" rows="4" placeholder="Opsional"></textarea>
+                                </form>
+                                <button class="button-konfirmasi" onclick="window.location.href='konfirmasiJadwal.html'"> <p>Lanjutkan Pemesanan</p> </button>
+                            </div>
+                        </div>                       
+                    </div>
+
+                </div>
+            </div>
+            <div class="about-us-container">
+                <section class="about-us">
+                    <h2>Tentang Kami</h2>
+                    <p>Kami adalah penyedia layanan kebersihan profesional yang berkomitmen untuk memberikan layanan terbaik kepada pelanggan kami. Dengan pengalaman bertahun-tahun, kami memahami pentingnya kebersihan dalam menciptakan lingkungan yang sehat dan nyaman.</p>
+                    <p>Tim kami terdiri dari tenaga ahli yang terlatih dan menggunakan peralatan serta produk pembersih berkualitas tinggi untuk memastikan hasil yang optimal. Kami melayani berbagai jenis ruang, mulai dari rumah tinggal hingga kantor dan ruang usaha.</p>
+                    <p>Hubungi kami hari ini untuk mendapatkan layanan kebersihan terbaik!</p>
+                </section>
+            </div>
+    </div>
+</body>
+</html>
